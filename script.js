@@ -1,4 +1,4 @@
-//alert("Я оцениваю свою работу на 110 баллов");
+alert("Я оцениваю свою работу на 110 баллов");
 const body = document.body;
 const wrapper = document.createElement("div");
 const card = document.createElement("div");
@@ -51,19 +51,21 @@ images.setAttribute("src", "./img/image.jpg");
 
 document.body.style.margin = "0";
 document.body.style.backgroundColor = "hsl(217, 54%, 11%)";
+document.body.style.fontFamily = "Outfit, sans-serif";
 document.body.style.fontSize = "18px";
-document.body.style.fontFamily =
-  "https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap";
 
-wrapper.style.width = "1440px";
-wrapper.style.marginTop = "50px";
-wrapper.style.marginLeft = "500px";
-images.style.width = "300px";
-images.style.borderRadius = "20px";
+wrapper.style.maxWidth = "1440px";
+wrapper.style.margin = "50px auto";
+wrapper.style.marginLeft = "600px";
+
 card.style.backgroundColor = " hsl(216, 50%, 16%)";
 card.style.width = "300px";
 card.style.borderRadius = "25px";
 card.style.padding = "25px 25px";
+
+images.style.width = "300px";
+images.style.borderRadius = "20px";
+
 title.style.color = "hsl(0, 0%, 100%)";
 cardText.style.color = "hsl(215, 51%, 70%)";
 cardText.style.fontSize = "18px";
@@ -78,12 +80,10 @@ priceText.style.display = "flex";
 priceText.style.alignItems = "center";
 priceText.style.gap = "8px";
 imgEl.src = "./img/icon-ethereum.svg";
-imgEl.style.width = "15px";
-imgEl.style.height = "20px";
+
 rightText.style.color = "hsl(178, 100%, 50%)";
 oclock.src = "./img/icon-clock.svg";
-oclock.style.width = "15px";
-oclock.style.height = "20px";
+
 leftText.style.color = "hsl(215, 51%, 70%)";
 line.style.border = "1px solid hsl(215, 32%, 27%)";
 line.style.marginBottom = "20px";
